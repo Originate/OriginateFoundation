@@ -15,6 +15,9 @@
 		F9913C781D1CA6B400BDC699 /* OFLog.h in Headers */ = {isa = PBXBuildFile; fileRef = F9913C761D1CA6B400BDC699 /* OFLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9913C7E1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.h in Headers */ = {isa = PBXBuildFile; fileRef = F9913C7C1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9913C7F1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9913C7D1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.m */; };
+		F9A5501A1D26D8640062A1DE /* NSArray+OFFunctional.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A550181D26D8640062A1DE /* NSArray+OFFunctional.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9A5501B1D26D8640062A1DE /* NSArray+OFFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A550191D26D8640062A1DE /* NSArray+OFFunctional.m */; };
+		F9A5501D1D26D95A0062A1DE /* OFFunctionalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A5501C1D26D95A0062A1DE /* OFFunctionalTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,9 @@
 		F9913C7C1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+OFISO8601Formatter.h"; sourceTree = "<group>"; };
 		F9913C7D1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+OFISO8601Formatter.m"; sourceTree = "<group>"; };
 		F9913C811D21EEB400BDC699 /* OFSafeBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OFSafeBlock.h; sourceTree = "<group>"; };
+		F9A550181D26D8640062A1DE /* NSArray+OFFunctional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+OFFunctional.h"; sourceTree = "<group>"; };
+		F9A550191D26D8640062A1DE /* NSArray+OFFunctional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+OFFunctional.m"; sourceTree = "<group>"; };
+		F9A5501C1D26D95A0062A1DE /* OFFunctionalTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFFunctionalTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,8 @@
 				F9913C811D21EEB400BDC699 /* OFSafeBlock.h */,
 				F9913C7C1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.h */,
 				F9913C7D1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.m */,
+				F9A550181D26D8640062A1DE /* NSArray+OFFunctional.h */,
+				F9A550191D26D8640062A1DE /* NSArray+OFFunctional.m */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -121,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				F93C9EC31D2655C200D6B004 /* OFSafeBlockTests.m */,
+				F9A5501C1D26D95A0062A1DE /* OFFunctionalTests.m */,
 				F9913C6E1D1C963C00BDC699 /* OFDateFormatterTests.m */,
 			);
 			name = Sources;
@@ -145,6 +154,7 @@
 			files = (
 				F9913C781D1CA6B400BDC699 /* OFLog.h in Headers */,
 				F9913C6B1D1C962900BDC699 /* OriginateFoundation.h in Headers */,
+				F9A5501A1D26D8640062A1DE /* NSArray+OFFunctional.h in Headers */,
 				F93C9EC11D26543100D6B004 /* OFSafeBlock.h in Headers */,
 				F9913C7E1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.h in Headers */,
 			);
@@ -246,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9A5501B1D26D8640062A1DE /* NSArray+OFFunctional.m in Sources */,
 				F9913C7F1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9A5501D1D26D95A0062A1DE /* OFFunctionalTests.m in Sources */,
 				F93C9EC01D26541500D6B004 /* OFDateFormatterTests.m in Sources */,
 				F93C9EC41D2655C200D6B004 /* OFSafeBlockTests.m in Sources */,
 			);

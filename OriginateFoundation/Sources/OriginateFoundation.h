@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char OriginateFoundationVersionString[];
 
 #import <OriginateFoundation/OFLog.h>
 #import <OriginateFoundation/OFSafeBlock.h>
+#import <OriginateFoundation/NSArray+OFFunctional.h>
 #import <OriginateFoundation/NSDateFormatter+OFISO8601Formatter.h>
