@@ -65,11 +65,11 @@ The default `NSLog()` function does not get stripped automatically when building
 
 ```objective-c
 // MyViewController.m
-43: …
-44: - (void)viewDidLoad {
-45:    OFLog(@"Hello World");
-46: }
-47: …
+43| ...
+44| - (void)viewDidLoad {
+45|    OFLog(@"Hello World");
+46| }
+47| ...
 ```
 
 ```objective-c
@@ -82,16 +82,16 @@ The default `NSLog()` function does not get stripped automatically when building
 
 ```objective-c
 // MyViewController.m
-43: …
-44: - (void)viewDidLoad {
-45:    OFLogModule(@"AppCore", @"Application Core Loaded");
-46: }
-47: …
+43| ...
+44| - (void)viewDidLoad {
+45|    OFLogModule(@"AppCore", @"Application Core Loaded");
+46| }
+47| ...
 ```
 
 ```objective-c
 // Output:
-2016-07-01 12:00:00.000 BUILD_TARGET[PID:MACHPORT] [AppCore] -[MyViewController viewDidLoad]:45 > Hello World.
+2016-07-01 12:00:00.000 BUILD_TARGET[PID:MACHPORT] [AppCore] -[MyViewController viewDidLoad]:45 > Application Core Loaded.
 ```
 
 ## ISO8601DateFormatter
