@@ -56,7 +56,7 @@ OF_SAFE_EXEC_MAIN(completionHandler, arg1, arg2,…);
 ```
 
 ## Logging
-The default `NSLog()` function does not get stripped automatically when building for release. Neither does it contain information about the function and context in which it was used. 
+The default `NSLog()` function does not get stripped automatically when building a release build. Neither does it contain information about the function and context in which it was used. 
 
 ### OFLog()
 `OFLog()` ensures that…
