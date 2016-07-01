@@ -1,10 +1,10 @@
 <img src="OriginateFoundationLogo.png" alt="OriginateFoundation Logo" width="500"/>
 <hr />
 <br />
-OriginateFoundation bundles fundamental categories and classes commonly used to streamline iOS development.
+**OriginateFoundation** bundles fundamental categories and classes commonly used to streamline iOS development.
 
 # Installation with CocoaPods
-Add the following lines to your Podfile and run `pod install`:
+Add the following lines to your `Podfile` and run `pod install`:
 
 ```ruby
 source 'https://github.com/Originate/CocoaPods.git'
@@ -12,7 +12,7 @@ pod 'OriginateFoundation'
 ```
 
 # Installation with Carthage
-Add the following line to your Cartfile and run `carthage update`:
+Add the following line to your `Cartfile` and run `carthage update`:
 ```
 github "Originate/OriginateFoundation"
 ```
@@ -39,7 +39,7 @@ if (completionHandler) {
     completionHandler(arg1, arg2,…);
 }
 ```
-…all the time, `OriginateFoundation` provides the `OF_SAFE_EXEC()` family of macros. The above code can be re-written as:
+…all the time, **OriginateFoundation** provides the `OF_SAFE_EXEC()` family of macros. The above code can be re-written as:
 ```objective-c
 // Will safely execute on the current queue.
 OF_SAFE_EXEC(completionHandler, arg1, arg2,…);
@@ -122,4 +122,4 @@ NSArray *doubled = [numbers of_map:^NSNumber *(NSNumber *number) {
 Consult `NSArray+OFFunctional.h` for more details and `OFFunctionalTests.m` for example usage.
 
 # License
-`OriginateFoundation` is available under the MIT license. See the LICENSE file for more info.
+**OriginateFoundation** is available under the MIT license. See the LICENSE file for more info.
