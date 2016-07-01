@@ -1,5 +1,6 @@
-# OriginateFoundation
-> OriginateFoundation bundles fundamental categories and classes commonly used to streamline iOS development.
+<img src="OriginateFoundationLogo.png" alt="OriginateFoundation Logo" width="500"/>
+
+OriginateFoundation bundles fundamental categories and classes commonly used to streamline iOS development.
 
 # Installation with CocoaPods
 Add the following lines to your Podfile and run `pod install`:
