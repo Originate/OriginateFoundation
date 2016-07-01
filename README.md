@@ -122,4 +122,4 @@ NSArray *doubled = [numbers of_map:^NSNumber *(NSNumber *number) {
 Consult `NSArray+OFFunctional.h` for more details and `OFFunctionalTests.m` for example usage.
 
 # License
-**OriginateFoundation** is available under the MIT license. See the LICENSE file for more info.
+**OriginateFoundation** is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
