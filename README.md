@@ -30,7 +30,7 @@ After adding the module to your respective build target, you need to import it w
 ```
 
 ## Executing Blocks Safely
-When designing or consuming block based APIs, we sometimes do not care about a `completionBlock` or similar. In those cases it is common to pass `nil` as the arguments value. If we were to try and execute a `nil` block, the application will crash.
+When designing or consuming block-based APIs, we sometimes do not care about a `completionBlock` or similar. In those cases it is common to pass `nil` as the arguments value. If we were to try and execute a `nil` block, the application will crash.
 
 ### OF_SAFE_EXEC()
 In order to avoid having to write…
