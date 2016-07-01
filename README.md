@@ -108,7 +108,7 @@ NSString *string = [NSDate of_ISO8601StringFromDate:date];
 ```
 
 ## OFFunctional
-Based on [PKFunctional](https://github.com/pkluz/PKFunctional) you have access to an entire class of commonly used higher-order functions. This includes but is not limited to `map`, `filter`, `reduce`, `zip` and others.
+Based on [PKFunctional](https://github.com/pkluz/PKFunctional) you have access to an entire suite of commonly used higher-order functions. This includes but is not limited to `map`, `filter`, `reduce`, `zip` and others.
 
 ```objective-c
 NSArray *numbers = @[@1, @2, @3, @4];
