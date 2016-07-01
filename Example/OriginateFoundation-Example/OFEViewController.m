@@ -8,10 +8,6 @@
 
 #import "OFEViewController.h"
 
-@interface OFEViewController ()
-
-@end
-
 @implementation OFEViewController
 
 - (void)viewDidLoad
@@ -25,6 +21,7 @@
     [self exampleBlockInvocation];
     [self exampleBlockInvocationMainThread];
     [self exampleISO8601DateParsing];
+    [self exampleMapping];
 }
 
 - (void)exampleBlockInvocation
@@ -53,6 +50,16 @@
     NSDate *parsed = [NSDateFormatter of_dateFromISO8601String:ISO8601String];
     
     OFLog(@"Parsed NSDate: %@.", parsed);
+}
+
+- (void)exampleMapping
+{
+    NSArray *numbers = @[@1, @2, @3, @4];
+    NSArray *doubled = [numbers of_map:^NSNumber *(NSNumber *number)
+                       {
+                           return @([number integerValue] * 2);
+                       }];
+    OFLog(@"Mapping Result: %@.", doubled);
 }
 
 @end
