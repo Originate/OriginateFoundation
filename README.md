@@ -1,5 +1,6 @@
 <img src="OriginateFoundationLogo.png" alt="OriginateFoundation Logo" width="500"/>
-
+<hr />
+<br />
 OriginateFoundation bundles fundamental categories and classes commonly used to streamline iOS development.
 
 # Installation with CocoaPods
