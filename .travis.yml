@@ -1,0 +1,3 @@
+language: objective-c
+xcode_project: OriginateFoundation.xcodeproj
+xcode_scheme: OriginateFoundationTests
