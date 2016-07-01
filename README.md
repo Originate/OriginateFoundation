@@ -19,6 +19,7 @@ github "Originate/OriginateFoundation"
 
 # Requirements
 - iOS 8.0+
+- macOS 10.10+
 
 # Usage
 ## Import the Framework
