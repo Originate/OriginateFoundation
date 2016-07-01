@@ -1,0 +1,16 @@
+PODS:
+  - OriginateFoundation (0.0.1)
+
+DEPENDENCIES:
+  - OriginateFoundation (from `../`)
+
+EXTERNAL SOURCES:
+  OriginateFoundation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OriginateFoundation: 8988c04a6390a64aa61818e8ab200d92390d0166
+
+PODFILE CHECKSUM: 5984a1999ffb39e7ed556add8c7feadf0299f528
+
+COCOAPODS: 1.0.1

@@ -13,7 +13,6 @@
 		F9913C581D1C907E00BDC699 /* OriginateFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9913C4D1D1C907E00BDC699 /* OriginateFoundation.framework */; };
 		F9913C6B1D1C962900BDC699 /* OriginateFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = F9913C681D1C962900BDC699 /* OriginateFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9913C781D1CA6B400BDC699 /* OFLog.h in Headers */ = {isa = PBXBuildFile; fileRef = F9913C761D1CA6B400BDC699 /* OFLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9913C791D1CA6B400BDC699 /* OFLog.m in Sources */ = {isa = PBXBuildFile; fileRef = F9913C771D1CA6B400BDC699 /* OFLog.m */; };
 		F9913C7E1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.h in Headers */ = {isa = PBXBuildFile; fileRef = F9913C7C1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9913C7F1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9913C7D1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.m */; };
 /* End PBXBuildFile section */
@@ -37,7 +36,6 @@
 		F9913C6E1D1C963C00BDC699 /* OFDateFormatterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFDateFormatterTests.m; sourceTree = "<group>"; };
 		F9913C701D1C963C00BDC699 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9913C761D1CA6B400BDC699 /* OFLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFLog.h; sourceTree = "<group>"; };
-		F9913C771D1CA6B400BDC699 /* OFLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFLog.m; sourceTree = "<group>"; };
 		F9913C7C1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+OFISO8601Formatter.h"; sourceTree = "<group>"; };
 		F9913C7D1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+OFISO8601Formatter.m"; sourceTree = "<group>"; };
 		F9913C811D21EEB400BDC699 /* OFSafeBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OFSafeBlock.h; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 			children = (
 				F9913C681D1C962900BDC699 /* OriginateFoundation.h */,
 				F9913C761D1CA6B400BDC699 /* OFLog.h */,
-				F9913C771D1CA6B400BDC699 /* OFLog.m */,
 				F9913C811D21EEB400BDC699 /* OFSafeBlock.h */,
 				F9913C7C1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.h */,
 				F9913C7D1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.m */,
@@ -250,7 +247,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9913C7F1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.m in Sources */,
-				F9913C791D1CA6B400BDC699 /* OFLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
