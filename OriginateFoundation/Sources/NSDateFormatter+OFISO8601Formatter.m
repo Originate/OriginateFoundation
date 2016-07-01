@@ -10,7 +10,7 @@
 
 @implementation NSDateFormatter (OFISO8601Formatter)
 
-+ (instancetype)sharedISO8601DateFormatter
++ (instancetype)of_sharedISO8601DateFormatter
 {
     static NSDateFormatter *ISO8601Formatter = nil;
     static dispatch_once_t onceToken;
@@ -26,12 +26,12 @@
 
 + (NSDate *)of_dateFromISO8601String:(NSString *)string
 {
-    return [[NSDateFormatter sharedISO8601DateFormatter] dateFromString:string];
+    return [[NSDateFormatter of_sharedISO8601DateFormatter] dateFromString:string];
 }
 
 + (NSString *)of_ISO8601StringFromDate:(NSDate *)date
 {
-    return [[NSDateFormatter sharedISO8601DateFormatter] stringFromDate:date];
+    return [[NSDateFormatter of_sharedISO8601DateFormatter] stringFromDate:date];
 }
 
 @end
