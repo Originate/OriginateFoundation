@@ -99,7 +99,7 @@ Up until and including iOS 9, `Foundation` did not provide built-in mechanisms t
 
 ```objective-c
 NSString *string = @"2016-07-01T19:59:59Z"; // ISO 8601 String
-NSDate *date = [NSDateFormatter string];
+NSDate *date = [NSDateFormatter of_dateFromISO8601String:string];
 ```
 
 ```objective-c
