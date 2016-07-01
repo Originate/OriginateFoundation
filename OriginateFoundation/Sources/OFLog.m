@@ -45,17 +45,27 @@
 
 #ifdef DEBUG
 NSDateFormatter * __OFLogDateFormatter() {
-    NSDateFormatter *formatter = nil;
+    static NSDateFormatter *formatter = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+        formatter = [[NSDateFormatter alloc] init];
         formatter.locale = [NSLocale localeWithLocaleIdentifier:@"en_US_POSIX"];
-        formatter.timeZone = [NSTimeZone timeZoneWithAbbreviation:@"UTC"];
+        formatter.timeZone = [NSTimeZone localTimeZone];
         formatter.dateFormat = @"yyyy-MM-dd HH:mm:ss:SSS";
     });
 
     return formatter;
 }
+
+dispatch_queue_t __OFLogQueue() {
+    static dispatch_queue_t queue = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        queue = dispatch_queue_create("com.originate.foundation.log", DISPATCH_QUEUE_SERIAL);
+    });
+    return queue;
+}
+
 #endif
 
 void OFLog(NSString *format, ...)
@@ -77,11 +87,12 @@ void OFLog(NSString *format, ...)
         
         const char *class = [array[OF_CLASS_CALLER_IDX] UTF8String];
         const char *line = [array[OF_LINE_CALLER_IDX] UTF8String];
-        const char *formattedCString = [[formattedString stringByReplacingOccurrencesOfString:@"%%" withString:@"%%%%"] UTF8String];
         const char *dateTime = [[dateFormatter stringFromDate:[NSDate date]] UTF8String];
         
-        dispatch_async(dispatch_get_main_queue(), ^{
-            printf("%s [%s:%s] - %s\n", dateTime, class, line, formattedCString);
+        NSString *stringToLog = [NSString stringWithFormat:@"%s [%s:%s] - %@\n", dateTime, class, line, formattedString];
+        
+        dispatch_async(__OFLogQueue(), ^{
+            printf("%s", [stringToLog UTF8String]);
         });
         
         va_end(argumentList);

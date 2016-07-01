@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F93C9EC01D26541500D6B004 /* OFDateFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9913C6E1D1C963C00BDC699 /* OFDateFormatterTests.m */; };
+		F93C9EC11D26543100D6B004 /* OFSafeBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = F9913C811D21EEB400BDC699 /* OFSafeBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F93C9EC41D2655C200D6B004 /* OFSafeBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F93C9EC31D2655C200D6B004 /* OFSafeBlockTests.m */; };
 		F9913C581D1C907E00BDC699 /* OriginateFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9913C4D1D1C907E00BDC699 /* OriginateFoundation.framework */; };
-		F9913C6B1D1C962900BDC699 /* OriginateFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = F9913C681D1C962900BDC699 /* OriginateFoundation.h */; };
-		F9913C711D1C963C00BDC699 /* OriginateFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9913C6E1D1C963C00BDC699 /* OriginateFoundationTests.m */; };
-		F9913C781D1CA6B400BDC699 /* OFLog.h in Headers */ = {isa = PBXBuildFile; fileRef = F9913C761D1CA6B400BDC699 /* OFLog.h */; };
+		F9913C6B1D1C962900BDC699 /* OriginateFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = F9913C681D1C962900BDC699 /* OriginateFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9913C781D1CA6B400BDC699 /* OFLog.h in Headers */ = {isa = PBXBuildFile; fileRef = F9913C761D1CA6B400BDC699 /* OFLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9913C791D1CA6B400BDC699 /* OFLog.m in Sources */ = {isa = PBXBuildFile; fileRef = F9913C771D1CA6B400BDC699 /* OFLog.m */; };
-		F9913C7E1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.h in Headers */ = {isa = PBXBuildFile; fileRef = F9913C7C1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.h */; };
+		F9913C7E1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.h in Headers */ = {isa = PBXBuildFile; fileRef = F9913C7C1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9913C7F1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9913C7D1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.m */; };
 /* End PBXBuildFile section */
 
@@ -27,18 +29,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F93C9EC31D2655C200D6B004 /* OFSafeBlockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFSafeBlockTests.m; sourceTree = "<group>"; };
 		F9913C4D1D1C907E00BDC699 /* OriginateFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OriginateFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9913C571D1C907E00BDC699 /* OriginateFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OriginateFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9913C681D1C962900BDC699 /* OriginateFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriginateFoundation.h; sourceTree = "<group>"; };
 		F9913C6A1D1C962900BDC699 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9913C6E1D1C963C00BDC699 /* OriginateFoundationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriginateFoundationTests.m; sourceTree = "<group>"; };
+		F9913C6E1D1C963C00BDC699 /* OFDateFormatterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFDateFormatterTests.m; sourceTree = "<group>"; };
 		F9913C701D1C963C00BDC699 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9913C761D1CA6B400BDC699 /* OFLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFLog.h; sourceTree = "<group>"; };
 		F9913C771D1CA6B400BDC699 /* OFLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFLog.m; sourceTree = "<group>"; };
 		F9913C7C1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+OFISO8601Formatter.h"; sourceTree = "<group>"; };
 		F9913C7D1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+OFISO8601Formatter.m"; sourceTree = "<group>"; };
 		F9913C811D21EEB400BDC699 /* OFSafeBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OFSafeBlock.h; sourceTree = "<group>"; };
-		F9913C831D21F05700BDC699 /* OFSafeCast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OFSafeCast.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				F9913C681D1C962900BDC699 /* OriginateFoundation.h */,
-				F9913C821D21F04600BDC699 /* Casting */,
-				F9913C7A1D1CA91300BDC699 /* Logging */,
-				F9913C801D21EE9600BDC699 /* Dispatching */,
-				F9913C7B1D1CA91900BDC699 /* Categories */,
+				F9913C761D1CA6B400BDC699 /* OFLog.h */,
+				F9913C771D1CA6B400BDC699 /* OFLog.m */,
+				F9913C811D21EEB400BDC699 /* OFSafeBlock.h */,
+				F9913C7C1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.h */,
+				F9913C7D1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.m */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -120,7 +123,8 @@
 		F9913C6D1D1C963C00BDC699 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				F9913C6E1D1C963C00BDC699 /* OriginateFoundationTests.m */,
+				F93C9EC31D2655C200D6B004 /* OFSafeBlockTests.m */,
+				F9913C6E1D1C963C00BDC699 /* OFDateFormatterTests.m */,
 			);
 			name = Sources;
 			path = Tests/Sources;
@@ -135,40 +139,6 @@
 			path = "Tests/Supporting Files";
 			sourceTree = SOURCE_ROOT;
 		};
-		F9913C7A1D1CA91300BDC699 /* Logging */ = {
-			isa = PBXGroup;
-			children = (
-				F9913C761D1CA6B400BDC699 /* OFLog.h */,
-				F9913C771D1CA6B400BDC699 /* OFLog.m */,
-			);
-			name = Logging;
-			sourceTree = "<group>";
-		};
-		F9913C7B1D1CA91900BDC699 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				F9913C7C1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.h */,
-				F9913C7D1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.m */,
-			);
-			name = Categories;
-			sourceTree = "<group>";
-		};
-		F9913C801D21EE9600BDC699 /* Dispatching */ = {
-			isa = PBXGroup;
-			children = (
-				F9913C811D21EEB400BDC699 /* OFSafeBlock.h */,
-			);
-			name = Dispatching;
-			sourceTree = "<group>";
-		};
-		F9913C821D21F04600BDC699 /* Casting */ = {
-			isa = PBXGroup;
-			children = (
-				F9913C831D21F05700BDC699 /* OFSafeCast.h */,
-			);
-			name = Casting;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -178,6 +148,7 @@
 			files = (
 				F9913C781D1CA6B400BDC699 /* OFLog.h in Headers */,
 				F9913C6B1D1C962900BDC699 /* OriginateFoundation.h in Headers */,
+				F93C9EC11D26543100D6B004 /* OFSafeBlock.h in Headers */,
 				F9913C7E1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +250,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9913C7F1D1CA97900BDC699 /* NSDateFormatter+OFISO8601Formatter.m in Sources */,
-				F9913C711D1C963C00BDC699 /* OriginateFoundationTests.m in Sources */,
 				F9913C791D1CA6B400BDC699 /* OFLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F93C9EC01D26541500D6B004 /* OFDateFormatterTests.m in Sources */,
+				F93C9EC41D2655C200D6B004 /* OFSafeBlockTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,12 +24,12 @@
     return ISO8601Formatter;
 }
 
-+ (NSDate *)dateFromISO8601String:(NSString *)string
++ (NSDate *)of_dateFromISO8601String:(NSString *)string
 {
     return [[NSDateFormatter sharedISO8601DateFormatter] dateFromString:string];
 }
 
-+ (NSString *)ISO8601StringFromDate:(NSDate *)date
++ (NSString *)of_ISO8601StringFromDate:(NSDate *)date
 {
     return [[NSDateFormatter sharedISO8601DateFormatter] stringFromDate:date];
 }
