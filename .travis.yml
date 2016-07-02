@@ -1,3 +1,6 @@
-language: objective-c
+osx_image:     xcode7.3
+language:      objective-c
 xcode_project: OriginateFoundation.xcodeproj
-xcode_scheme: OriginateFoundationTests
+xcode_scheme:  OriginateFoundationTests
+xcode_sdk:     iphonesimulator8.0
+
