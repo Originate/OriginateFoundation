@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = 'OriginateFoundation'
-  s.version             = '0.0.1'
+  s.version             = '0.0.2'
   s.summary             = 'OriginateFoundation bundles fundamental behaviors / categories / extensions commonly used to streamline iOS development.'
   s.homepage            = 'https://github.com/Originate/OriginateFoundation'
   s.license             = 'MIT'
