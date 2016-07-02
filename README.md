@@ -22,6 +22,12 @@ github "Originate/OriginateFoundation"
 - iOS 8.0+
 - macOS 10.10+
 
+# Features
+- [x] Safe Block Execution
+- [x] Improved Logging
+- [x] ISO8601 Date Formatter Support
+- [x] Collection of Higher-Order Functions
+
 # Usage
 ## Import the Framework
 After adding the module to your respective build target, you need to import it wherever you would like to use it.
