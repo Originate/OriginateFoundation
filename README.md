@@ -4,6 +4,16 @@
 <br />
 > **OriginateFoundation** bundles fundamental categories and classes commonly used to streamline iOS development.
 
+# Requirements
+- iOS 8.0+
+- macOS 10.10+
+
+# Features
+- [x] Safe Block Execution
+- [x] Improved Logging
+- [x] ISO8601 Date Formatter Support
+- [x] Collection of Higher-Order Functions
+
 # Installation with CocoaPods
 Add the following lines to your `Podfile` and run `pod install`:
 
@@ -17,16 +27,6 @@ Add the following line to your `Cartfile` and run `carthage update`:
 ```
 github "Originate/OriginateFoundation"
 ```
-
-# Requirements
-- iOS 8.0+
-- macOS 10.10+
-
-# Features
-- [x] Safe Block Execution
-- [x] Improved Logging
-- [x] ISO8601 Date Formatter Support
-- [x] Collection of Higher-Order Functions
 
 # Usage
 ## Import the Framework
