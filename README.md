@@ -1,7 +1,8 @@
 <img src="OriginateFoundationLogo.png" alt="OriginateFoundation Logo" width="500"/>
 <hr />
+[![Build Status](https://travis-ci.org/Originate/OriginateFoundation.svg?branch=pk-travis)](https://travis-ci.org/Originate/OriginateFoundation)
 <br />
-**OriginateFoundation** bundles fundamental categories and classes commonly used to streamline iOS development.
+> **OriginateFoundation** bundles fundamental categories and classes commonly used to streamline iOS development.
 
 # Installation with CocoaPods
 Add the following lines to your `Podfile` and run `pod install`:
