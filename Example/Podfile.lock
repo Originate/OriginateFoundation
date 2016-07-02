@@ -1,5 +1,13 @@
 PODS:
-  - OriginateFoundation (0.0.1)
+  - OriginateFoundation (0.0.1):
+    - OriginateFoundation/Functional (= 0.0.1)
+    - OriginateFoundation/ISO8601 (= 0.0.1)
+    - OriginateFoundation/Log (= 0.0.1)
+    - OriginateFoundation/SafeBlocks (= 0.0.1)
+  - OriginateFoundation/Functional (0.0.1)
+  - OriginateFoundation/ISO8601 (0.0.1)
+  - OriginateFoundation/Log (0.0.1)
+  - OriginateFoundation/SafeBlocks (0.0.1)
 
 DEPENDENCIES:
   - OriginateFoundation (from `../`)
@@ -9,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OriginateFoundation: 8988c04a6390a64aa61818e8ab200d92390d0166
+  OriginateFoundation: 03c61bc196930505399f51c230f5b01477dc18fd
 
 PODFILE CHECKSUM: 5984a1999ffb39e7ed556add8c7feadf0299f528
 
