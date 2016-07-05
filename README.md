@@ -2,7 +2,7 @@
 <hr />
 [![Build Status](https://travis-ci.org/Originate/OriginateFoundation.svg?branch=pk-travis)](https://travis-ci.org/Originate/OriginateFoundation)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![CocoaPods compatible](https://img.shields.io/badge/CocoaPods-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![CocoaPods compatible](https://img.shields.io/badge/CocoaPods-compatible-4BC51D.svg?style=flat)](https://cocoapods.org)
 <br />
 > **OriginateFoundation** bundles fundamental categories and classes commonly used to streamline iOS development.
 
