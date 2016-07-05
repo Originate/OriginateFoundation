@@ -1,6 +1,7 @@
 <img src="OriginateFoundationLogo.png" alt="OriginateFoundation Logo" width="500"/>
 <hr />
 [![Build Status](https://travis-ci.org/Originate/OriginateFoundation.svg?branch=pk-travis)](https://travis-ci.org/Originate/OriginateFoundation)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 <br />
 > **OriginateFoundation** bundles fundamental categories and classes commonly used to streamline iOS development.
 
